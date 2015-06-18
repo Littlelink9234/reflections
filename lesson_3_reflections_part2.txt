@@ -1,16 +1,21 @@
-When would you want to create a remote repository rather than keeping all your work local?
+1) When would you want to create a remote repository rather than keeping all your work local?
   - You would want to create a remote repository when you want to share your work publicly, have others contribute to your project, and when you would want to keep a version of all your work somewhere safe.
   
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
   - The amount of overhead when you pull automatically will be high.  You may want to perform a single pull at the end of the day instead of having to do multiple pulls in one day, hour, etc.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
   - Fork: Cloning/copying a user's repository.  Use this if you want to work on someone elses project but dont have permission to change their project.
   - Clone: Creating a copy of a repository onto your local machine.  Also creating a copy of a local repository into another place on your local machine.  Use this when you want to work locally on your machine and when a branch is not needed.
   - Branch: Creating a copy of an instance of a commit and all commits that are attached to that branch on your local machine.  Use this when you dont want to disturb the master branch of a project and when you want to make changes to your own branch.
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
   - The benefit is you would be able to see the differences between that remote and any upcoming changes being done directly on GitHub.  Also, if something goes wrong when making changes directly on GitHub, you now have a copy of the last remote.
 
-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
   - Dropbox, or Google Docs, or doing collaborate manually.  Manually would be harder.  Dropbox would be the easiest of all three.
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  - You would want to make changes in a separate branch when you introduce a new feature to the application but don't want to implement it on the master branch yet.
+  Benefit of separate branch? - Break as much code as you want
+  Benefit of master branch? - less branches to deal with and less clutter
